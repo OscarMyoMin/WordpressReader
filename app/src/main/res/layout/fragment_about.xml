@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:layout_below="@+id/logo"
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:text="This is developed by Oscar Myo Min for education purpose. You can make your web (wordpress) into an android app. The source code of Wordpress Reader is avaliable on Github"/>
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/about"
+        android:background="@color/colorAccent"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:text="Download Source Code"/>
+    <Button
+        android:id="@+id/btn_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_download"
+        android:background="#4267B2"
+        android:padding="15dp"
+        android:textColor="#fff"
+        android:text="Find Me On Facebook"/>
+</RelativeLayout>

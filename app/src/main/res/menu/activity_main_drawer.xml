@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/home"
+            android:title="All Projects" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/category"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_aboutme"
+            android:icon="@drawable/aboutme"
+            android:title="About Me" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
