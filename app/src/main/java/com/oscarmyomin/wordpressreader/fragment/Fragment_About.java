@@ -33,7 +33,7 @@ public class Fragment_About extends Fragment {
         btnCode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/" + facebookId));
+                Intent myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/OscarMyoMin/WordpressReader/tree/master"));
                 startActivity(myIntent);
             }
         });
